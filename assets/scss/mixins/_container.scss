@@ -1,5 +1,5 @@
 @mixin make-container($padding-x: $container-padding-x) {
-  width: 100%;
+  // width: 100%;
   // max-width: 1088px;
   padding-right: $padding-x;
   padding-left: $padding-x;
@@ -7,6 +7,6 @@
   margin-left: auto;
 }
 .sm-container {
-  @include make-container(0px);
-  max-width: 908px;
+  @include make-container(12px);
+  max-width: 932px;
 }

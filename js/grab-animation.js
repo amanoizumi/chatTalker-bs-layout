@@ -1,4 +1,4 @@
-const ele = document.querySelector('.price-btns');
+const ele = document.querySelector('.price-wall');
 let pos = {
   top: 0,
   left: 0,

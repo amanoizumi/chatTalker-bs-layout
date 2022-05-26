@@ -443,7 +443,8 @@ $paragraph-margin-bottom:   1rem !default;
 
 // scss-docs-start grid-breakpoints
 $grid-breakpoints: (
-  xs: 0,
+  xxs: 0,
+  xs: 420px,
   sm: 576px,
   md: 768px,
   lg: 992px,
@@ -617,7 +618,8 @@ $font-sizes: (
   5: 20px,
   6: 18px,
   7: 16px,
-  8: 12px,
+  8: 14px,
+  9: 12px,
 ) !default;
 // $font-sizes: (
 //   1: $h1-font-size,
@@ -1331,7 +1333,7 @@ $accordion-button-color:                  $accordion-color !default;
 $accordion-button-bg:                     var(--#{$prefix}accordion-bg) !default;
 $accordion-transition:                    $btn-transition, border-radius .15s ease !default;
 // myCustom
-$accordion-button-active-bg:              white!default;
+$accordion-button-active-bg:              transparent !default;
 // $accordion-button-active-bg:              tint-color($component-active-bg, 90%) !default;
 $accordion-button-active-color:           shade-color(#56C4C5, 10%) !default;
 // myCustom
