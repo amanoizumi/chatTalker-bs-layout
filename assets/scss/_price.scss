@@ -34,7 +34,7 @@
   top: 800px;
   left: 0;
   z-index: -1;
-  background-image: url('/assets/images/ball03.svg');
+  background-image: url('../images/ball03.svg');
   transform: translate(-50%, -50%);
   background-position: center center;
   background-size: cover;
@@ -46,7 +46,7 @@
     height: 361px;
     top: 280px;
     left: -240px;
-    background-image: url('/assets/images/ball03.svg');
+    background-image: url('../images/ball03.svg');
   }
 }
 .header-bg {
@@ -64,7 +64,7 @@
   top: 0;
   right: 0;
   z-index: -1;
-  background-image: url('/assets/images/banner_sm.svg');
+  background-image: url('../images/banner_sm.svg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
   @include media-breakpoint-up(xs) {
     width: 885px;
     height: 559px;
-    background-image: url('/assets/images/banner.svg');
+    background-image: url('../images/banner.svg');
   }
 }
 
@@ -101,7 +101,7 @@
 }
 
 .accordion-button::after {
-  background-image: url('/assets/images/icon_plus.svg');
+  background-image: url('../images/icon_plus.svg');
 }
 
 .accordion-button:not(.collapsed) {
@@ -109,5 +109,5 @@
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url('/assets/images/icon_minus.svg');
+  background-image: url('../images/icon_minus.svg');
 }

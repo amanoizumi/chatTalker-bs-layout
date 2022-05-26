@@ -5,7 +5,7 @@
   top: 560px;
   left: 50%;
   z-index: -1;
-  background-image: url('/assets/images/bg_home_sm.svg');
+  background-image: url('../images/bg_home_sm.svg');
   transform: translate(-50%, -50%);
   background-position: center center;
   background-size: cover;
@@ -18,7 +18,7 @@
     top: 0px;
     left: initial;
     right: 0px;
-    background-image: url('/assets/images/bg_home.svg');
+    background-image: url('../images/bg_home.svg');
   }
 }
 
@@ -33,7 +33,7 @@
     z-index: -1;
     top: 671px;
     left: 0;
-    background-image: url('/assets/images/ball01.svg');
+    background-image: url('../images/ball01.svg');
     background-position: -63px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@
     z-index: -1;
     top: 2000px;
     right: 0;
-    background-image: url('/assets/images/ball02.svg');
+    background-image: url('../images/ball02.svg');
     background-position: 55px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@
     z-index: -1;
     top: 0px;
     left: 50px;
-    background-image: url('/assets/images/ball03.svg');
+    background-image: url('../images/ball03.svg');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -137,7 +137,7 @@
 }
 
 .index-footer {
-  background-image: url('/assets/images/home_footer.svg');
+  background-image: url('../images/home_footer.svg');
   background-size: cover;
   background-position: center center;
   min-height: 503px;
