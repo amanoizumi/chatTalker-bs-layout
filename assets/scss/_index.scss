@@ -1,0 +1,145 @@
+.yellow-block {
+  position: absolute;
+  width: 334px;
+  height: 244.79px;
+  top: 560px;
+  left: 50%;
+  z-index: -1;
+  background-image: url('/assets/images/bg_home_sm.svg');
+  transform: translate(-50%, -50%);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-up(md) {
+    transform: none;
+    width: 850.36px;
+    height: 765px;
+    top: 0px;
+    left: initial;
+    right: 0px;
+    background-image: url('/assets/images/bg_home.svg');
+  }
+}
+
+.index-header {
+  &-pic {
+    max-width: 532px;
+  }
+
+  .blue-block {
+    width: 126px;
+    height: 126px;
+    z-index: -1;
+    top: 671px;
+    left: 0;
+    background-image: url('/assets/images/ball01.svg');
+    background-position: -63px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include media-breakpoint-up(md) {
+      width: 360px;
+      height: 360px;
+      top: 500px;
+      background-position: -180px;
+    }
+  }
+}
+
+.sns {
+  &-list {
+    img {
+      width: 90px;
+      height: 90px;
+    }
+
+    li {
+      padding: 0 54px;
+    }
+  }
+}
+
+.character {
+  position: relative;
+
+  .light-blue-block {
+    width: 155px;
+    height: 155px;
+    z-index: -1;
+    top: 2000px;
+    right: 0;
+    background-image: url('/assets/images/ball02.svg');
+    background-position: 55px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include media-breakpoint-up(sm) {
+      width: 250px;
+      height: 250px;
+      top: 780px;
+      background-position: 125px;
+    }
+    @include media-breakpoint-up(md) {
+      width: 310px;
+      height: 310px;
+      top: 410px;
+      background-position: 155px;
+    }
+  }
+
+}
+
+.understand {
+  .img-frame {
+    width: 86px;
+    height: 86px;
+
+    img {
+      width: 52px;
+      height: 52px;
+    }
+  }
+}
+
+.comment {
+  .light-yellow-block {
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    top: 0px;
+    left: 50px;
+    background-image: url('/assets/images/ball03.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .img-frame {
+    width: 80px;
+    height: 80px;
+    top: -50px;
+  }
+
+  .icon-star {
+    width: 16px;
+    height: 16px;
+  }
+
+  .swiper {
+    margin: 0 -12px;
+    padding: 0 12px;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 20px;
+    border-radius: 8px;
+  }
+}
+
+.index-footer {
+  background-image: url('/assets/images/home_footer.svg');
+  background-size: cover;
+  background-position: center center;
+  min-height: 503px;
+  padding-top: 260px;
+}

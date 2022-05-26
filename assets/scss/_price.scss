@@ -1,0 +1,60 @@
+.gray-block {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 470px;
+  z-index: -2;
+  background-color: #F7F9FD;
+  border-radius: 0 0 0 300px;
+  margin-bottom: 180px;
+  h2 {
+    margin-top: 180px;
+  }
+}
+.price-header {
+  min-height: 382px;
+  padding-top: 92px;
+}
+.header-bg {
+  position: absolute;
+  width: 885px;
+  height: 559px;
+  top:0 ;
+  right: 0;
+  z-index: -1;
+  background-image: url('/assets/images/banner.svg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.price-btns {
+  padding: 0 20px;
+  margin: 0 auto 64px auto;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  
+  @include media-breakpoint-up(sm) {
+    padding: 0 90px;
+    
+  }
+  
+}
+.price-btns::-webkit-scrosllbar {
+  display: none;
+}
+.img-check {
+  margin-right: 13px;
+}
+.accordion-button::after {
+  background-image: url('/assets/images/icon_plus.svg');
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url('/assets/images/icon_minus.svg');
+}
