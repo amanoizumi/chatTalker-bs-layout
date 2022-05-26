@@ -27,7 +27,28 @@
     padding-top: 92px;
   }
 }
+.light-yellow-block {
+  position: absolute;
+  width: 204px;
+  height: 204px;
+  top: 800px;
+  left: 0;
+  z-index: -1;
+  background-image: url('/assets/images/ball03.svg');
+  transform: translate(-50%, -50%);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
+  @include media-breakpoint-up(md) {
+    transform: none;
+    width: 361px;
+    height: 361px;
+    top: 280px;
+    left: -240px;
+    background-image: url('/assets/images/ball03.svg');
+  }
+}
 .header-bg {
   position: absolute;
   // width: 375px;
