@@ -1,0 +1,18 @@
+.scrolltop {
+  z-index: 10;
+  border-radius: 50%;
+  width: 71px;
+  height: 71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: #56C4C5;
+  &:hover {
+    background-color: #FF5D50;
+  }
+}
